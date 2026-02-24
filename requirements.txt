@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+groq
+yt-dlp
+whisper
+streamlit
+requests
+tenacity
+dvc
