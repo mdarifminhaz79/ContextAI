@@ -1,1 +1,18 @@
-
+{
+  "name": "ContextAI Cloud Dev",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "iterative.dvc"
+      ]
+    }
+  },
+  "forwardPorts": [8000],
+  "remoteUser": "root"
+}
